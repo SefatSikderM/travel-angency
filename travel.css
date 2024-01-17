@@ -1,0 +1,145 @@
+/* header section */
+.start{
+    display:flex;
+    justify-content:space-between;
+}
+.travel-icon{
+    width: 48px;
+    height: 56.008px;
+    margin-left: 140px;
+}
+.Icon-logo{
+    display: flex;
+}
+.Chasing-horizon{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+    margin-top: 0%;
+    }
+.Items{
+    
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    color: #424247;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 140px;
+    
+}
+ul{
+    list-style-type: none;
+}
+
+/* Section 1 with ocean background image */
+.title1{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 100px;
+}
+.about1{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-top: 24px;
+
+}
+.section1{
+    background:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),
+    url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+    height: auto;
+    width: auto ;
+    margin: auto 140px;
+    padding-bottom: 100px;
+    
+    
+
+}
+.inputinfo{
+    border-radius: 8px;
+    border-bottom: #FFF;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 25px;
+    text-align: center;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 200px;
+    margin-top: 48px;
+    
+    }
+.inputdata{
+    border-radius: 8px;
+    background: #FFF;
+    width: 70px;
+    height: 20px;
+    padding: 16px 84px 16px 16px ;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    
+
+}
+.submit1{
+    border-radius: 8px;
+    background: #FF5400;
+    size: 80px;
+    width: 174px;
+    height: 52px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 13px 16px 16px 16px ;
+
+}
+
+/* Section 2 design */
+.section2{
+    display: flex;
+    margin-left: 140px;
+    margin-top: 100px;
+}
+.para1{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    gap: 40px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.img2{
+    margin-right: 140px;
+}
+
+/* Section 3 */
+.grid-container{
+    display: grid;
+    /* grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);  */
+    grid-template-areas:
+    "item1 item1 item1 item2 item2 item2", 
+    "item3 item3 item4 item4 item5 item5"
+   
+}
+.grid-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    
+}
