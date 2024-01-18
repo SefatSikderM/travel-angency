@@ -42,7 +42,7 @@ ul{
     font-size: 64px;
     font-weight: 800;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 200px;
 }
 .about1{
     color: #FFF;
@@ -127,41 +127,130 @@ ul{
 .img2{
     margin-right: 140px;
 }
-
-/* Section 3 */
-.destinations-container {
-    display: grid;
-    gap: 24px;
-    grid-template-areas:
-        "maldives maldives maldives indonesia indonesia indonesia"
-        "srilanka srilanka north-america north-america kashmir kashmir"
-        "bangladesh bangladesh bangladesh bandarban bandarban bandarban";
+.imgclass1{
+    display: flex;
+    justify-content: center;
+    
+    
+    
+    
 }
-.destination {
-    position: relative;
+.imgclass2{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.imgclass3{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.imagemar{
+    border-radius: 16px;
+    margin: 5px;
+    height: auto;
+    width: auto ;
+    padding: 0%;
+
+
+}
+
+/* section3 starts */
+.whycho{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+.para3{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+.Bangkok{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+        position: relative;
+        margin: 140px;
+}
+.detl2{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.detl3{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    
+}
+.detl4{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 40px;
+    justify-content: center;
+
+}
+.head1{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+.yoyo{
+    justify-content: center;
     text-align: center;
 }
-.destination1 {
-    grid-area: maldives;
+
+.simp{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-left: 140px;
+    margin-right: 140px;
+    
+
 }
-div {
-    display: block;
+
+for mobile devices */
+@media screen and (max-width:600px) {
+    
+    .start{
+        font-size: 1.75rem;
+    
+    }
+
+.hamburger-icon {
+    display: inline-block;
+    padding-top: 10px;
 }
-.destination3 {
-    grid-area: srilanka;
+.section1{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
 }
-.destination4 {
-    grid-area: north-america;
+.title1 .about1 .inputinfo{
+    width: 80%;
 }
-.destination5 {
-    grid-area: kashmir;
-}
-.destination6 {
-    grid-area: bangladesh;
-}
-.destination7 {
-    grid-area: bandarban;
-}
-.why-choose-us {
-    margin-top: 80px;
+    
 }
